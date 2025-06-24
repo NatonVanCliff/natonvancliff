@@ -1,7 +1,11 @@
-## Привет всем! 👋
+# Hi, there! I'm Maksim 👋
 
-## 🔧 Технологии
-Инструменты, языки программирования и т.д. с которыми мне нравиться работать.
+Fronted developer from Nizhny Novgorod
+
+[![telegam](https://img.shields.io/badge/telegram-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/naton_van_cliff)
+
+
+#### 🔧 Languages and Tools:
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23f6aa3f?logo=javascript&logoColor=white)
 ![HTML](https://img.shields.io/badge/-HTML-%23f73031?logo=html5&logoColor=white)
