@@ -23,7 +23,7 @@ function formatRange (arr) {
         if (sortedList[i] + 1 !== sortedList[i+1]) {
             let currentRange = `${startRange}`;
 
-            // случай когда диапазон состоит из одного числа
+            // случай когда диапазон состоит не из одного числа
             if (startRange !== sortedList[i]) {
                 currentRange += `-${sortedList[i]}`;
             }
