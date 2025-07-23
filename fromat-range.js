@@ -8,13 +8,15 @@ function formatRange (arr) {
     // Сортировка массива
     // arr.sort((a, b) => a - b); // мутируем оригинальный массив
     // const sortedList = [...arr].sort((a, b) => a - b); // не мутируем оригинальный массив (если есть требование)
-    const sortedList = [...new Set(arr)].sort((a, b) => a - b); // сортировака, убираем дубликаты (если есть требование)
+
+    // сортировака, убираем дубликаты. Далее алгоритм построен на том, что дубликатов нет
+    const sortedList = [...new Set(arr)].sort((a, b) => a - b); 
 
     const ranges = [];
     let startRange;
     for (let i = 0; i < sortedList.length; i++) {
         if (startRange === undefined) {
-            // сохраняем на начало диапазона в указатель
+            // сохраняем начало диапазона в указатель
             startRange = sortedList[i];
         }
 
